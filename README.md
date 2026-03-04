@@ -1,7 +1,7 @@
 # camoufox_sql
 All Camoufox inside a T-SQL (MS SQL) database. Ready to use in your software. For data only. Comes empty.
 
-Based on Camoufox v.135.0.1-beta.24 from March 15, 2025 which as of 2026 March 04 is still the last..
+Based on Camoufox v.135.0.1-beta.24 from March 15, 2025 which as of 2026 March 04 is still the last.
 
 It ports all the Camoufox properties (fingerprints) into a SQL Database. 
 
