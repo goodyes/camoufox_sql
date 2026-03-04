@@ -1,0 +1,21 @@
+USE [YOUR_DATABASE_NAME]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[FINGERPRINTS.MEDIADEVICES](
+	[Fingerprint.MediaDevice.ID] [int] IDENTITY(1,1) NOT NULL,
+	[Fingerprint.MediaDevice.enabled] [int] NOT NULL,
+	[Fingerprint.MediaDevice.micros] [tinyint] NOT NULL,
+	[Fingerprint.MediaDevice.webcams] [tinyint] NOT NULL,
+	[Fingerprint.MediaDevice.speakers] [tinyint] NOT NULL,
+ CONSTRAINT [PK_FINGERPRINTS.MEDIADEVICES] PRIMARY KEY CLUSTERED 
+(
+	[Fingerprint.MediaDevice.ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
